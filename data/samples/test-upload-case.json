@@ -1,0 +1,64 @@
+{
+  "title": "Test Upload - Medium Risk Salaried Employee",
+  "caseData": {
+    "customerProfile": {
+      "fullName": "Priya Deshmukh",
+      "dateOfBirth": "1992-08-20",
+      "nationality": "India",
+      "email": "priya.deshmukh@example-mail.com",
+      "phone": "+91-98765-43210",
+      "customerType": "individual"
+    },
+    "identityDetails": {
+      "idType": "national_id",
+      "idNumber": "AADH-8822-4455-6677",
+      "issuingCountry": "India",
+      "expiryDate": "2032-12-31",
+      "nameOnDocument": "Priya Deshmukh"
+    },
+    "addressDetails": {
+      "street": "Flat 12B, Sunshine Apartments, MG Road",
+      "city": "Pune",
+      "state": "Maharashtra",
+      "postalCode": "411001",
+      "country": "India",
+      "addressType": "residential"
+    },
+    "employmentInfo": {
+      "status": "employed",
+      "employerName": "InfoTech Services Pvt Ltd",
+      "jobTitle": "Business Analyst",
+      "annualIncome": 1200000,
+      "industry": "IT Services",
+      "yearsEmployed": 4
+    },
+    "supportingDocuments": [
+      {
+        "documentType": "national_id",
+        "fileName": "aadhaar_card.pdf",
+        "uploadedAt": "2026-03-01T09:00:00Z",
+        "verified": true
+      },
+      {
+        "documentType": "proof_of_address",
+        "fileName": "electricity_bill.pdf",
+        "uploadedAt": "2026-03-01T09:05:00Z",
+        "verified": true
+      },
+      {
+        "documentType": "proof_of_income",
+        "fileName": "salary_slip.pdf",
+        "uploadedAt": "2026-03-01T09:10:00Z",
+        "verified": false
+      }
+    ],
+    "riskIndicators": {
+      "pepStatus": false,
+      "sanctionsMatch": false,
+      "adverseMedia": false,
+      "highRiskCountry": false,
+      "unusualTransactionPattern": false,
+      "sourceOfFundsUnclear": false
+    }
+  }
+}

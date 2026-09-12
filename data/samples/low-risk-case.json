@@ -1,0 +1,64 @@
+{
+  "title": "Low Risk Individual - Complete Application",
+  "caseData": {
+    "customerProfile": {
+      "fullName": "Alexandra Chen",
+      "dateOfBirth": "1990-03-15",
+      "nationality": "United States",
+      "email": "alexandra.chen@example-mail.com",
+      "phone": "+1-555-0101",
+      "customerType": "individual"
+    },
+    "identityDetails": {
+      "idType": "passport",
+      "idNumber": "P12345678",
+      "issuingCountry": "United States",
+      "expiryDate": "2030-06-30",
+      "nameOnDocument": "Alexandra Chen"
+    },
+    "addressDetails": {
+      "street": "742 Evergreen Terrace",
+      "city": "Springfield",
+      "state": "IL",
+      "postalCode": "62704",
+      "country": "United States",
+      "addressType": "residential"
+    },
+    "employmentInfo": {
+      "status": "employed",
+      "employerName": "TechCorp Solutions",
+      "jobTitle": "Software Engineer",
+      "annualIncome": 95000,
+      "industry": "Technology",
+      "yearsEmployed": 5
+    },
+    "supportingDocuments": [
+      {
+        "documentType": "passport",
+        "fileName": "passport_scan.pdf",
+        "uploadedAt": "2026-01-10T10:00:00Z",
+        "verified": true
+      },
+      {
+        "documentType": "proof_of_address",
+        "fileName": "utility_bill.pdf",
+        "uploadedAt": "2026-01-10T10:05:00Z",
+        "verified": true
+      },
+      {
+        "documentType": "proof_of_income",
+        "fileName": "pay_stub.pdf",
+        "uploadedAt": "2026-01-10T10:10:00Z",
+        "verified": true
+      }
+    ],
+    "riskIndicators": {
+      "pepStatus": false,
+      "sanctionsMatch": false,
+      "adverseMedia": false,
+      "highRiskCountry": false,
+      "unusualTransactionPattern": false,
+      "sourceOfFundsUnclear": false
+    }
+  }
+}

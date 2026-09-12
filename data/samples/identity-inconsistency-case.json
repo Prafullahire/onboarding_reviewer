@@ -1,0 +1,58 @@
+{
+  "title": "Identity Inconsistency - Name Mismatch",
+  "caseData": {
+    "customerProfile": {
+      "fullName": "Sarah Johnson",
+      "dateOfBirth": "1988-07-08",
+      "nationality": "United Kingdom",
+      "email": "sarah.j@example-mail.com",
+      "phone": "+44-555-0303",
+      "customerType": "individual"
+    },
+    "identityDetails": {
+      "idType": "drivers_license",
+      "idNumber": "DL-44556677",
+      "issuingCountry": "United Kingdom",
+      "expiryDate": "2028-03-20",
+      "nameOnDocument": "S. J. Williams"
+    },
+    "addressDetails": {
+      "street": "42 Baker Street",
+      "city": "London",
+      "state": "England",
+      "postalCode": "NW1 6XE",
+      "country": "United Kingdom",
+      "addressType": "residential"
+    },
+    "employmentInfo": {
+      "status": "employed",
+      "employerName": "Global Finance Ltd",
+      "jobTitle": "Account Manager",
+      "annualIncome": 65000,
+      "industry": "Financial Services",
+      "yearsEmployed": 3
+    },
+    "supportingDocuments": [
+      {
+        "documentType": "drivers_license",
+        "fileName": "license.pdf",
+        "uploadedAt": "2026-02-01T09:00:00Z",
+        "verified": true
+      },
+      {
+        "documentType": "proof_of_address",
+        "fileName": "bank_statement.pdf",
+        "uploadedAt": "2026-02-01T09:05:00Z",
+        "verified": true
+      }
+    ],
+    "riskIndicators": {
+      "pepStatus": false,
+      "sanctionsMatch": false,
+      "adverseMedia": false,
+      "highRiskCountry": false,
+      "unusualTransactionPattern": false,
+      "sourceOfFundsUnclear": false
+    }
+  }
+}

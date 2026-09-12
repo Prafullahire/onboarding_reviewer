@@ -1,0 +1,52 @@
+{
+  "title": "High Risk - PEP with Missing Documents",
+  "caseData": {
+    "customerProfile": {
+      "fullName": "Marcus Volkov",
+      "dateOfBirth": "1975-11-22",
+      "nationality": "Country X",
+      "email": "m.volkov@example-mail.com",
+      "phone": "+99-555-0202",
+      "customerType": "individual"
+    },
+    "identityDetails": {
+      "idType": "national_id",
+      "idNumber": "NID-99887766",
+      "issuingCountry": "Country X",
+      "expiryDate": "2025-12-31",
+      "nameOnDocument": "M. Volkov"
+    },
+    "addressDetails": {
+      "street": "15 Harbor View",
+      "city": "Port City",
+      "state": "Coastal",
+      "postalCode": "99001",
+      "country": "Country X",
+      "addressType": "residential"
+    },
+    "employmentInfo": {
+      "status": "self_employed",
+      "employerName": "Volkov Trading LLC",
+      "jobTitle": "Director",
+      "annualIncome": 500000,
+      "industry": "Import/Export",
+      "yearsEmployed": 12
+    },
+    "supportingDocuments": [
+      {
+        "documentType": "national_id",
+        "fileName": "id_front.jpg",
+        "uploadedAt": "2026-01-15T14:00:00Z",
+        "verified": false
+      }
+    ],
+    "riskIndicators": {
+      "pepStatus": true,
+      "sanctionsMatch": false,
+      "adverseMedia": true,
+      "highRiskCountry": true,
+      "unusualTransactionPattern": true,
+      "sourceOfFundsUnclear": true
+    }
+  }
+}
